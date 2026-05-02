@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Random Quote Generator</title>
+</head>
+<body class="pdct">
+<div class="head1">
+    <h1> Super Duper Girl</h1>
+    <script src="script.js"></script>
+    <section class="bdy">
+        <a href="Videos.html">Videos</a>
+        <a href="Pictures.html">images</a>
+        <a href="Productivity.html">Gogirl</a>
+         <a href="index.html">Home</a>
+    </section>
+        <div id="tab-productivity" class="tab-panel">
+  <div class="productivity">
+    <!-- TO-DO -->
+    <div class="section-card">
+      <h2 class="section-title">To-do list</h2>
+      <div class="todo-input-row">
+        <input type="text" id="todoInput" placeholder="Add a task…" onkeydown="if(event.key==='Enter')addTodo()" />
+        <select class="todo-cat" id="todoCat">
+          <option value="work">Work</option>
+          <option value="personal">Personal</option>
+          <option value="health">Health</option>
+          <option value="creative">Creative</option>
+          <option value="other">Other</option>
+        </select>
+        <button class="btn btn-brand" onclick="addTodo()">Add</button>
+      </div>
+      <ul class="todo-list" id="todoList"></ul>
+      <div class="progress-bar-wrap">
+        <div class="progress-label">
+          <span id="progressText">0 / 0 done</span>
+          <span id="progressPct">0%</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      </div>
+      <div class="todo-actions">
+        <button class="btn btn-ghost" onclick="clearDone()">Clear done</button>
+        <button class="btn btn-ghost" onclick="refreshTodos()">↻ Refresh</button>
+      </div>
+    </div>
+
+    <!-- PIE CHART -->
+    <div class="section-card">
+      <h2 class="section-title">Progress by category</h2>
+      <div class="chart-wrap">
+        <canvas id="pieChart" role="img" aria-label="Pie chart showing task completion by category"></canvas>
+      </div>
+      <div class="chart-legend" id="chartLegend"></div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+    </section>
+</body>
+</html>

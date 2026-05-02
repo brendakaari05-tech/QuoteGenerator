@@ -1,1 +1,121 @@
 
+.head1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(244, 116, 222, 0.845);
+
+}
+.btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #b0afaf;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+
+}
+body{
+    background-image : url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+.bdy{
+    background-color: rgba(239, 86, 213, 0.845);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.bdy a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-radius: 50px;
+    background-color: #ec1eae
+    
+}
+.pic{
+    background-image : url(images/picimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pdct{
+    background-image : url(images/productivity1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.vds{
+    background-image : url(images/videos.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ppc{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color:aliceblue ;
+    align-self: self-start;
+
+}
+#vd2{
+    display: flex;
+    justify-content: center;
+    background-color: #cfdde8e9;
+    padding: 10px;
+}
+        .tktk{
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #b0afaf;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            margin: 0 10px;
+            background-color: black;
+        }
+    .Nfx{
+        padding: 10px;
+        font-size: 14px;
+        cursor: pointer;
+        background-color: #b0afaf;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin: 0 10px;
+        background-color: red;
+    }
+    .Ytb{
+        padding: 10px;
+        font-size: 14px;
+        cursor: pointer;
+        background-color: #b0afaf;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin: 0 10px;
+        background-color: red;
+    }
+    .Igm {
+        padding: 10px;
+        font-size: 14px;
+        cursor: pointer;
+        background-color: #b0afaf;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin: 0 10px;
+        background-color: white;
+    }
